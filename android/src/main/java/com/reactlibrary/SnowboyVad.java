@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package com.reactlibrary;
+package main.java.com.reactlibrary;
 
 public class SnowboyVad {
   private transient long swigCPtr;

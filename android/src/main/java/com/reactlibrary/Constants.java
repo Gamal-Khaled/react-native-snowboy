@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package main.java.com.reactlibrary;
 import java.io.File;
 import android.os.Environment;
 

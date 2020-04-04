@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package main.java.com.reactlibrary;
 
 public enum  MsgEnum {
     MSG_VAD_END,
