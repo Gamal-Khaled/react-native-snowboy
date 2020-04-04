@@ -1,4 +1,4 @@
-package com.reactlibrary.audio;
+package main.java.com.reactlibrary.audio;
 
 import java.io.BufferedOutputStream;
 import java.io.DataOutputStream;
@@ -9,7 +9,7 @@ import java.io.IOException;
 
 import android.util.Log;
 
-import ai.kitt.snowboy.Constants;
+import main.java.com.reactlibrary.Constants;
 
 public class AudioDataSaver implements AudioDataReceivedListener {
 

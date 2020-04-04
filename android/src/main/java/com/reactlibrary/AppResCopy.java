@@ -1,4 +1,4 @@
-package ai.kitt.snowboy;
+package main.java.com.reactlibrary;
 
 import android.content.Context;
 import android.util.Log;

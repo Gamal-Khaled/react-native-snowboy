@@ -1,4 +1,4 @@
-package com.reactlibrary.audio;
+package main.java.com.reactlibrary.audio;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
@@ -15,7 +15,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.ShortBuffer;
 
-import ai.kitt.snowboy.Constants;
+import main.java.com.reactlibrary.Constants;
 
 public class PlaybackThread {
     private static final String TAG = PlaybackThread.class.getSimpleName();

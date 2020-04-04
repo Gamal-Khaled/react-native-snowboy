@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package com.reactlibrary;
+package main.java.com.reactlibrary;
 
 public class snowboyJNI {
   public final static native long new_SnowboyDetect(String jarg1, String jarg2);

@@ -1,4 +1,4 @@
-package com.reactlibrary.audio;
+package main.java.com.reactlibrary.audio;
 
 public interface AudioDataReceivedListener {
 	void start();

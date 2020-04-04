@@ -1,7 +1,7 @@
-package com.reactlibrary;
+package main.java.com.reactlibrary;
 
-import ai.kitt.snowboy.audio.RecordingThread;
-import ai.kitt.snowboy.audio.PlaybackThread;
+import main.java.com.reactlibrary.audio.RecordingThread;
+import main.java.com.reactlibrary.audio.PlaybackThread;
 
 import android.app.Activity;
 import android.media.AudioManager;
@@ -17,12 +17,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Context;
 
-import ai.kitt.snowboy.audio.AudioDataSaver;
-import ai.kitt.snowboy.demo.R;
-
+import main.java.com.reactlibrary.audio.AudioDataSaver;
+//import main.java.com.reactlibrary.R;
 
 public class Demo extends Activity {
-
+/*
     private Button record_button;
     private Button play_button;
     private TextView log;
@@ -248,5 +247,5 @@ public class Demo extends Activity {
          restoreVolume();
          recordingThread.stopRecording();
          super.onDestroy();
-     }
+     }*/
 }

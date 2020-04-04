@@ -1,11 +1,11 @@
-package com.reactlibrary.audio;
+package main.java.com.reactlibrary.audio;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 
-import ai.kitt.snowboy.Constants;
-import ai.kitt.snowboy.MsgEnum;
+import main.java.com.reactlibrary.Constants;
+import main.java.com.reactlibrary.MsgEnum;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
@@ -14,7 +14,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
-import ai.kitt.snowboy.SnowboyDetect;
+import main.java.com.reactlibrary.SnowboyDetect;
 
 public class RecordingThread {
     static { System.loadLibrary("snowboy-detect-android"); }
