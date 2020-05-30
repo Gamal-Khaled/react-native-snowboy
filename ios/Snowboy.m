@@ -1,6 +1,5 @@
 #import "Snowboy.h"
 
-
 @implementation Snowboy
 
 RCT_EXPORT_MODULE()
